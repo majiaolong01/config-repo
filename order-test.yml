@@ -15,5 +15,5 @@ eureka:
 env:
   test3
 user:
-  name: jack
-  age: 28
+  name: john
+  age: 18

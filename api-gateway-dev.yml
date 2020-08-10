@@ -1,0 +1,16 @@
+zuul:
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+  ignored-patterns:
+    - /**/product/listForOrder
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

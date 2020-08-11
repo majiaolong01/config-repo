@@ -1,5 +1,5 @@
 zuul:
-  sensitive-headers: 
+  sensitive-headers: Cookie,Set-Cookie,Authorization
   host:
     connect-timeout-millis: 3000
     socket-timeout-millis: 3000

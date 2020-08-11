@@ -7,6 +7,9 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
+    user:
+      path: /user/**
+      serviceId: user
   ignored-patterns:
     - /**/product/listForOrder
 management:

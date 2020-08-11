@@ -3,6 +3,10 @@ zuul:
   host:
     connect-timeout-millis: 5000
     socket-timeout-millis: 5000
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
   ignored-patterns:
     - /**/product/listForOrder
 management:

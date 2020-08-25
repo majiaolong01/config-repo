@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password:
+    password: abc123456
     url: jdbc:mysql://124.70.159.91:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSl=false&serverTimezone=GMT
     jpa:
       show-sql: true

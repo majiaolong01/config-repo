@@ -5,18 +5,18 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password:
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSl=false&serverTimezone=GMT
+    url: jdbc:mysql://124.70.159.91:4001/SpringCloud_Sell?characterEncoding=utf-8&useSSl=false&serverTimezone=GMT
     jpa:
       show-sql: true
   rabbitmq:
-    host: localhost
+    host: 124.70.159.91
     port: 5672
     username: guest
     password: guest
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://eureka:8761/eureka/
 env:
   test
 user:

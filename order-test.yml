@@ -6,7 +6,7 @@ spring:
     username: root
     password: abc123456
     url: jdbc:mysql://124.70.159.91:4002/SpringCloud_Sell?characterEncoding=utf-8&useSSl=false&serverTimezone=GMT
-    jpa: 
+    jpa:
       show-sql: true
   rabbitmq:
     host: 124.70.159.91
